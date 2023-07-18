@@ -1,0 +1,89 @@
+
+{
+  "intents": [
+    {
+      "tag" : "saludo", 
+      "patterns" : ["Hola, que tal?", "Hola", "Que tal?", "Buenas", "Buenas tardes", 
+                    "Buenas noches", "Habla", "Como estas?"], 
+      "responses" : ["Hola, soy la primera inteligencia artificial de los universitarios de la UDH",
+                      "Hola, en que te puedo ayudar?"] 
+    },
+
+    {
+      "tag" : "despedida", 
+      "patterns" : ["Adios","Hablamos","Hasta luego","Bye","Safo","Cuidate mano", "Nos vemos", "Hasta pronto"], 
+      "responses" : ["Hasta pronto, triquero", "Espero que haya sido de ayuda"] 
+    },
+    {
+      "tag" : "scanner",
+      "patterns" : ["que es un scanner", "que hace para su funcionamiento"],
+      "responses" : ["un scanner es un dispositivo"]
+    },
+    {
+      "tag" : "hora",
+      "patterns" : ["que hora es?", "cual es la hora actual?","me puedes dar la hora?"],
+      "responses" : ["la  hora es ", "Son las "]
+    },
+    {
+      "tag" : "youtube",
+      "patterns" : ["quiero er youtube", "quiero ver un video ","reproduce un video de mi canal de youtube"],
+      "responses" : ["como se llama tu video?"]
+    },
+
+    {
+      "tag" : "pregunta 1",
+      "patterns" : ["¿Que se celebra el 28 de julio en Peru,?","¿que dia es 28?","¿que festividad hay el 28 de julio?","¿Que evento hay el 28 de julio?","28 que se celebra"],
+      "responses" : ["El 28 de julio en Peru se celebra el Dia de la Independencia, conmemorando la proclamacion de la independencia del pais"]
+    },
+
+    {
+      "tag" : "pregunta 2",
+      "patterns" : ["Cual es el significado del 28 de julio en la historia de Peru","Qué ocurrió el 28 de julio de 1821 en Peru "],
+      "responses" : ["El 28 de julio marca un hito importante en la historia de Peru, ya que fue el día en que se declaró la independencia del dominio español y se inició la construcción del país como nación independiente"]
+    },
+
+    {
+      "tag" : "pregunta 3",
+      "patterns" : ["¿Quien proclamo la independencia de Peru el 28 de julio?"],
+      "responses" : ["La independencia de Peru fue proclamada por el general Jose de la Riva-Agüero."]
+    },
+    {
+      "tag" : "pregunta 4",
+      "patterns" : ["¿Cuales fueron los eventos o circunstancias que llevaron a la declaracion de independencia en esa fecha?"],
+      "responses" : ["La declaracion de independencia de Perú el 28 de julio de 1821 fue resultado de la lucha y la resistencia de los patriotas peruanos contra el dominio espanol, asi como la influencia de los movimientos independentistas en America Latina."]
+    },
+    {
+      "tag" : "pregunta 5",
+      "patterns" : ["¿Que figuras historicas estuvieron involucradas en el proceso de declaracion de independencia en Peru?"],
+      "responses" : ["Entre las figuras historicas destacadas involucradas en el proceso de independencia de Peru se encuentran José de la Riva-Agüero, José de la Serna, José de la Torre Ugarte, José de San Martín y Simón Bolívar."]
+    },
+    {
+      "tag" : "pregunta 6",
+      "patterns" : ["¿Cuales fueron los desafios a los que se enfrento Peru después de la independencia y como los supero?"],
+      "responses" : ["Después de la independencia, Peru enfrento desafios como la organizacion política y administrativa, la consolidación de la estabilidad interna, la definición de los límites territoriales y el desarrollo económico. Estos desafíos se superaron gradualmente mediante la adopción de nuevas leyes, la construcción de instituciones y el impulso de proyectos de desarrollo."]
+    },
+    {
+      "tag" : "pregunta 7",
+      "patterns" : ["¿En que año exacto se proclamo la independencia de Peru el 28 de julio?","cuando se proclamo la independencia","fecha de la independencia"],
+      "responses" : ["La independencia de Peru fue proclamada el 28 de julio de 1821."]
+    },
+    {
+      "tag" : "pregunta 8",
+      "patterns" : ["¿Como se celebra la independencia en Peru hoy en dia?"],
+      "responses" : [" La independencia se celebra en Peru el 28 de julio de cada año. Este dia es feriado nacional y se celebran diversas actividades, como desfiles, fiestas y conciertos."]
+    },
+    {
+      "tag" : "pregunta 9",
+      "patterns" : ["¿Que simbolos patrios se utilizan en Peru el 28 de julio?"],
+      "responses" : ["La bandera, el escudo y el himno nacional son los simbolos patrios que se utilizan en Peru el 28 de julio"]
+    },
+    {
+      "tag" : "pregunta 10",
+      "patterns" : ["¿Quienes fueron los principales lideres de la lucha por la independencia?"],
+      "responses" : ["Los principales lideres de la lucha por la independencia fueron José de San Martin, Simon Bolivar y José de Sucre."]
+    }
+
+
+  ]
+}
+

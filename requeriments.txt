@@ -1,0 +1,9 @@
+pip3 install SpeechRecognition pyaudio
+pip3 install pywhatkit
+pip3 install numpy==1.23.5
+pip3 install random
+pip3 install pickle
+pip3 install pyttsx3
+pip3 install SnowballStemmer
+pip3 install nltk
+pip3 install tensorflow
